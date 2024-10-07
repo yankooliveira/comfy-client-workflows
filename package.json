@@ -1,6 +1,6 @@
 {
   "name": "comfy-client-workflows",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "packageManager": "pnpm@7.5.0",
   "engines": {
     "node": ">=18.0.0"
@@ -9,7 +9,10 @@
   "author": "Yanko Oliveira <yanko.oliveira@gmail.com> (forked from a lib by Punnawut Khowkittipaiboon <me@itskaynine.com>)",
   "license": "MIT",
   "homepage": "https://github.com/yankooliveira/comfy-client-workflows",
-  "repository": "github:yankooliveira/comfy-client-workflows",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankooliveira/comfy-client-workflows.git"
+  },
   "bugs": "https://github.com/yankooliveira/comfy-client-workflows/issues",
   "keywords": [
     "comfy-ui",
