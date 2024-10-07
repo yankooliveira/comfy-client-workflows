@@ -1,16 +1,16 @@
 {
-  "name": "comfy-ui-client",
-  "version": "0.1.2",
+  "name": "comfy-client-workflows",
+  "version": "0.2.0",
   "packageManager": "pnpm@7.5.0",
   "engines": {
     "node": ">=18.0.0"
   },
-  "description": "WebSockets API client for ComfyUI",
-  "author": "Punnawut Khowkittipaiboon <me@itskaynine.com>",
+  "description": "WebSockets API client for ComfyUI with a Workflow wrapper",
+  "author": "Yanko Oliveira <yanko.oliveira@gmail.com> (forked from a lib by Punnawut Khowkittipaiboon <me@itskaynine.com>)",
   "license": "MIT",
-  "homepage": "https://github.com/itsKaynine/comfy-ui-client",
-  "repository": "github:itsKaynine/comfy-ui-client",
-  "bugs": "https://github.com/itsKaynine/comfy-ui-client/issues",
+  "homepage": "https://github.com/yankooliveira/comfy-client-workflows",
+  "repository": "github:yankooliveira/comfy-client-workflows",
+  "bugs": "https://github.com/yankooliveira/comfy-client-workflows/issues",
   "keywords": [
     "comfy-ui",
     "comfy-ui node",
@@ -42,19 +42,19 @@
     "prettier": "prettier --config .prettierrc --write ./src"
   },
   "dependencies": {
-    "pino": "^8.14.2",
-    "uuid": "^9.0.0",
-    "ws": "^8.13.0"
+    "pino": "^8.21.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.8",
-    "@types/node": "^18.11.14",
-    "@types/uuid": "^9.0.2",
-    "@types/ws": "^8.5.5",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
-    "eslint": "^8.44.0",
-    "tsup": "^7.1.0",
+    "@types/debug": "^4.1.12",
+    "@types/node": "^18.19.54",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.12",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.1",
+    "tsup": "^7.2.0",
     "typescript": "~5.0"
   }
 }
